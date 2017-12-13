@@ -1,10 +1,13 @@
 package com.iksanov.test.pages;
 
-import com.iksanov.test.util.DriverManager;
+import com.iksanov.testing.pages.FiltersMenu;
+import com.iksanov.testing.pages.MarketCatalogPage;
+import com.iksanov.testing.pages.MarketHomePage;
+import com.iksanov.testing.pages.YandexHomePage;
+import com.iksanov.testing.util.DriverManager;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 

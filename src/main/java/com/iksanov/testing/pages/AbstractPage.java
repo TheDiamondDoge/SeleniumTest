@@ -1,6 +1,6 @@
-package com.iksanov.test.pages;
+package com.iksanov.testing.pages;
 
-import com.iksanov.test.util.DriverManager;
+import com.iksanov.testing.util.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 public abstract class AbstractPage  {
     protected WebDriver driver;
 
-    public AbstractPage(){
+    protected AbstractPage(){
         driver = DriverManager.getDriver();
         PageFactory.initElements(driver, this);
     }
